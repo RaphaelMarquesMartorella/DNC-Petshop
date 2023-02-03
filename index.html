@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento pet</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+<main>
+    <div id="img">
+    <img src="img1.png" alt="">
+</div>
+    <div id="text"><h1>Agendamento de banho e tosa</h1></div>
+</main>
+
+<section>
+<section>
+    <form onsubmit="registrar()">
+        <label>Nome do pet*</label>
+        <input placeholder="Billy" type="text" id="nome">
+
+        <label>Raça do pet*</label>
+        <input placeholder="Shiba" type="text" id="raca">
+
+        <label>Dono do pet*</label>
+        <input placeholder="Beatriz Silva"  type="text" id="dono">
+
+        <label>Telefone*</label>
+        <input placeholder="(00)00000-0000" type="number" id="tel">
+
+        <button id="botao">Agendar</button>
+    </form>
+</section>
+    
+<section>
+    <table id="dataTable"cellspacing="0">
+        <tr>
+            <th>ID</th>
+            <th>Nome do pet</th>
+            <th>Raça</th>
+            <th>Dono do pet</th>
+            <th>Telefone</th>
+            <th>Remover</th>
+        </tr>
+
+      
+
+    </table>
+</section>
+</section>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
